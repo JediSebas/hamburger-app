@@ -1,7 +1,7 @@
 import React from "react";
 import { shallow } from "enzyme";
-import Home from "../Home";
-import Adapter from './setupTest';
+import Home from ".";
+import Adapter from '../setupTest';
 
 it("renders without crashing", () => {
   shallow(<Home />);

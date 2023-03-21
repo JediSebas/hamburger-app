@@ -1,10 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import HamburgerMenu from './HamburgerMenu';
-import Home from './Home';
-import About from './About';
-import Contact from './Contact';
+import HamburgerMenu from './hamburgerMenu/.';
+import Home from './home/.';
+import About from './about/.';
+import Contact from './contact/.';
 
 export default function App() {
   return (
